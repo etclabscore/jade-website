@@ -32,7 +32,7 @@
 .hero {
   padding: 2em;
   max-width: 60vw;
-  padding-bottom: 25vh;
+  padding-bottom: 15vh;
 
   img {
     max-width: 100%;
@@ -108,7 +108,6 @@
 @media screen and (max-width: $breakS) {
   .hero-image {
     padding-top: 10vh;
-    margin-bottom: -25vh;
     max-width: 50vw;
   }
 }
