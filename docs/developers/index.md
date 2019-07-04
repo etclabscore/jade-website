@@ -15,7 +15,6 @@ sidebarDepth: 0
 
 Need a more basic non-technical primer first? Check out [jade.builders/learn.](/learn/)
 
-
 ## Jade Service Runner
 
 Jade Service Runner is an opinionated JSON-RPC service manager, that provides daemonization, installation, and discovery for JSON-RPC based services.
@@ -31,6 +30,14 @@ Jade Signer RPC lets users manage keys and sign transactions offline for any EVM
 Jade Signer RPC is an API to support the generation, import, and/or storing of Ethereum Private Keys. It uses the [Web3 Secret Storage Definition](https://github.com/ethereumproject/wiki/wiki/Web3-Secret-Storage-Definition) to store keys offline and optionally use [BIP39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki) to generate mnemonic phrases. This software has no access to outside nodes or APIs.
 
 - [etclabscore/jade-signer-rpc](https://github.com/etclabscore/jade-signer-rpc)
+
+## Jade Explorer
+
+A block explorer for EVM-based blockchains.
+
+The explorer uses Jade Service Runner for managing background services (Multi-Geth), OpenRPC for underlying functionality, and Pristine.
+
+- [etclabscore/jade-explorer](https://github.com/etclabscore/jade-explorer)
 
 ## Specification
 
