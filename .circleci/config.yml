@@ -1,0 +1,96 @@
+version: 2
+
+aliases:
+  # -------------------------
+  #      ALIASES: Caches
+  # -------------------------
+  - &restore-deps-cache
+    key: deps-cache-{{ checksum "package.json" }}
+
+  - &save-deps-cache
+    key: deps-cache-{{ checksum "package.json" }}
+    paths:
+      - ~/open-rpc/node_modules
+
+  # -------------------------
+  #  ALIASES: Branch Filters
+  # -------------------------
+  - &filter-only-master
+    branches:
+      only: master
+  - &filter-only-semantic-pr
+    branches:
+      only:  /^(pull|fix|feat|dependabot)\/.*$/
+
+defaults: &defaults
+  working_directory: ~/open-rpc
+
+jobs:
+
+  build:
+    <<: *defaults
+    docker:
+      - image: circleci/node:10
+    steps:
+      - checkout
+      - restore_cache: *restore-deps-cache
+      - run: npm install
+      - run: npm run build
+      - save_cache: *save-deps-cache
+      - persist_to_workspace:
+          root: ./
+          paths:
+            - docs
+
+  release:
+    <<: *defaults
+    docker:
+      - image: circleci/node:10
+    steps:
+      - checkout
+      - restore_cache: *restore-deps-cache
+      - run: npm install
+      - run: npx semantic-release
+      - save_cache: *save-deps-cache
+
+  release-web:
+    <<: *defaults
+    docker:
+      - image: circleci/python:2.7-jessie
+    steps:
+      - attach_workspace:
+          at: /tmp/open-rpc/
+      - run:
+          name: Install awscli
+          command: sudo pip install awscli
+      - run:
+          name: Deploy to S3
+          command: aws s3 sync /tmp/open-rpc/docs/.vuepress/dist/ s3://open-rpc.org/ --delete
+      - run:
+          name: invalidate cloudfront
+          command: aws cloudfront create-invalidation --distribution-id E2NA7MTUVFBUIM --paths /*
+
+workflows:
+  version: 2
+  analysis:
+    jobs:
+      - build:
+          filters: *filter-only-semantic-pr
+
+  release:
+    jobs:
+      - build:
+          filters: *filter-only-master
+      - hold:
+          filters: *filter-only-master
+          type: approval
+          requires:
+            - build
+      - release:
+          filters: *filter-only-master
+          requires:
+            - hold
+      - release-web:
+          filters: *filter-only-master
+          requires:
+            - release
