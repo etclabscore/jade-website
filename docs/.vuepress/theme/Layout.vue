@@ -36,7 +36,7 @@
     },
     computed: {
       isLanding() {
-        return this.$page.title.includes("open-rpc.org");
+        return this.$page.title.includes("jade.builders");
       },
       isRelaunch() {
         return this.$page.path === "/relaunch.html"

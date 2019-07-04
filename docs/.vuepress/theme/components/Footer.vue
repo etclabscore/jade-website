@@ -1,9 +1,10 @@
 <template>
   <footer class="footer">
     <ul>
-      <li><a href="https://spec.open-rpc.org" target="_blank">Specfication</a></li>
-      <li><a href="https://playground.open-rpc.org" target="_blank">Playground</a></li>
-      <li><a href="https://github.com/open-rpc" target="_blank">GitHub</a></li>
+      <li><a href="https://explorer.jade.builders" target="_blank">Explorer</a></li>
+      <li><a href="https://service-runner.jade.builders" target="_blank">Service Runner</a></li>
+      <li><a href="https://signer.jade.builders" target="_blank">Signer</a></li>
+      <li><a href="https://github.com/etclabscore/jade" target="_blank">GitHub</a></li>
       <li><a href="https://discord.gg/rsQ4esV" target="_blank">Discord</a></li>
     </ul>
   </footer>

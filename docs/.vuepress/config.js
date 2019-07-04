@@ -1,9 +1,9 @@
 module.exports = {
-  title: 'open-rpc.org',
-  description: 'OpenRPC resources',
+  title: 'jade.builders',
+  description: 'Jade resources',
   themeConfig: {
     nav: [
-      { text: 'open-rpc.org', link: '/' },
+      { text: 'jade.builders', link: '/' },
       { text: 'Beginners', link: '/beginners/' },
       { text: 'Use', link: '/use/' },
       { text: 'Learn', link: '/learn/' },
@@ -12,18 +12,17 @@ module.exports = {
   },
   head: [
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,maximum-scale=1,maximum-scale=1' }],
-    ['link', { rel: 'icon', type: 'image/png', href: '/favicon.png' }],
     ['meta', { property: 'og:type', content: 'website' }],
-    ['meta', { property: 'og:title', content: 'OpenRPC' }],
-    ['meta', { property: 'og:site_name', content: 'open-rpc.org' }],
-    ['meta', { property: 'og:description', content: 'The OpenRPC Specification defines a standard, programming language-agnostic interface description for JSON-RPC 2.0 APIs.' }],
-    ['meta', { property: 'og:url', content: 'https://open-rpc.org' }],
-    ['meta', { property: 'og:image', content: 'https://github.com/open-rpc/design/raw/master/png/open-rpc-logo-320x320.png?raw=true' }],
+    ['meta', { property: 'og:title', content: 'Jade' }],
+    ['meta', { property: 'og:site_name', content: 'jade.builders' }],
+    ['meta', { property: 'og:description', content: 'The Jade Suite' }],
+    ['meta', { property: 'og:url', content: 'https://jade.builders' }],
+    ['meta', { property: 'og:image', content: 'https://raw.githubusercontent.com/etclabscore/jade-media-assets/master/jade-logo-dark/jade-logo-dark%20(PNG)/256x256.png' }],
     ['script', { async: true, defer: true, src: 'https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' },
     `
       new Crate({
         server: '538420083614023710',
-        channel: '554677372872294460',
+        channel: '545729672143699968',
         shard: 'https://disweb.deploys.io'
       })
     `]

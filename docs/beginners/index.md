@@ -1,38 +1,46 @@
 ---
-title: OpenRPC for beginners
+title: Jade for beginners
 lang: en-US
 ---
 
 # 👋 Welcome!
 
-New to OpenRPC? You’re in the right place. Let’s start with the big picture.
+New to Jade? You’re in the right place. Let’s start with the big picture.
 
-**OpenRPC is an interface description for JSON-RPC**. It is both human and machine-readable.
+The Jade suite of tools empowers developers to create peer-to-peer decentralized applications on top of EVM-based blockchains like Ethereum Classic.
 
-Use cases for machine-readable JSON-RPC API definition documents include, but are not limited to:
+Jades tooling has a few goals we believe are essential for any mission critical application:
 
-- specification driven development
-- interactive documentation
-- code generation 
-  - documentation
-  - clients
-  - servers
-- automation of test cases
+- Users should be in control of thier account
+    - This draws fine lines between where private keys are stored, how transactions are signed, and how they are broadcast.
+- Uniformly Documented Interfaces
+    - Leveraging the [OpenRPC Specification](https://open-rpc.org) to provide a documentation driven suite of tools
+- Developers should have an easy way of deploying the entire stack of their application
+    - Reduces the barrier to entry 
+- Applications should be able to run almost anywhere. Browser, smartphones, Native Desktop, etc...
+- Users should have the option to choose a security model that fits themselves not the application developer.
 
-OpenRPC documents describe a JSON-RPC APIs services and are represented in JSON format. These documents may either be produced and served statically or be generated dynamically from an application.
+To maximize the quality of our open sourcce software, Jade projects follow our [Pristine](https://github.com/etclabscore/pristine) open standard to ensure high quality contributions, documentation driven development philosphy, and reduce variance to improve re-use across projects.
 
-**Right now, thousands of developers all over the world are building protocols that use JSON-RPC, and inventing new kinds of applications, many of which can benefit from OpenRPC today:**
 
-**Welcome to OpenRPC.**
+## The Structure of a Truly P2P Application
+
+Jade is broken down into layers to make it easier to explain, document, consume, and develop for:
+
+![truly-p2p-apps](https://cdn-images-1.medium.com/max/800/1*4VhB7PSRU64XXhLGeHKHIg.png)
+
+**Right now, thousands of developers all over the world are building protocols that use JSON-RPC, and inventing new kinds of applications, many of which can benefit from Jade today:**
+
+**Welcome to jade.builders.**
 
 **Not sure where to go next?**
 
-- Read the specification. [spec.open-rpc.org](http://spec.open-rpc.org#introduction)
-- Want to get started using OpenRPC? [open-rpc.org/use](/use/)
-- Curious to learn more about OpenRPC and its technology? [open-rpc.org/learn](/learn/)
-- Are you a developer interested in building on OpenRPC? [open-rpc.org/developers](/developers/)
+- Read the specification. [etclabscore/jade](https://github.com/etclabscore/jade)
+- Want to get started using Jade? [jade.builders/use](/use/)
+- Curious to learn more about Jade and its technology? [jade.builders/learn](/learn/)
+- Are you a developer interested in building on Jade? [jade.builders/developers](/developers/)
 
-**Looking for more beginner resources about OpenRPC?**
+**Looking for more beginner resources about Jade?**
 
-[OpenRPC and ETC Tooling](https://youtu.be/UgSPMZ9FQ4Q?t=379)
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UgSPMZ9FQ4Q?start=379" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[Up and Running with Jade Service Runner](https://www.youtube.com/watch?v=Y-Wdg1hgMls)
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=Y-Wdg1hgMls" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

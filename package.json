@@ -1,8 +1,9 @@
 {
-  "name": "@open-rpc/open-rpc",
-  "version": "0.0.0-semantic-release-dev",
-  "description": "open-rpc.org website",
+  "name": "@etclabscore/jade-website",
+  "version": "0.0.0-development",
+  "description": "jade.builders website",
   "scripts": {
+    "start": "npm run dev",
     "dev": "vuepress dev docs",
     "build": "vuepress build docs"
   },

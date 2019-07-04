@@ -10,7 +10,7 @@ aliases:
   - &save-deps-cache
     key: deps-cache-{{ checksum "package.json" }}
     paths:
-      - ~/open-rpc/node_modules
+      - ~/jade/node_modules
 
   # -------------------------
   #  ALIASES: Branch Filters
@@ -23,7 +23,7 @@ aliases:
       only:  /^(pull|fix|feat|dependabot)\/.*$/
 
 defaults: &defaults
-  working_directory: ~/open-rpc
+  working_directory: ~/jade
 
 jobs:
 
@@ -59,16 +59,13 @@ jobs:
       - image: circleci/python:2.7-jessie
     steps:
       - attach_workspace:
-          at: /tmp/open-rpc/
+          at: /tmp/jade/
       - run:
           name: Install awscli
           command: sudo pip install awscli
       - run:
           name: Deploy to S3
-          command: aws s3 sync /tmp/open-rpc/docs/.vuepress/dist/ s3://open-rpc.org/ --delete
-      - run:
-          name: invalidate cloudfront
-          command: aws cloudfront create-invalidation --distribution-id E2NA7MTUVFBUIM --paths /*
+          command: aws s3 sync /tmp/jade/docs/.vuepress/dist/ s3://jade.builders/ --delete
 
 workflows:
   version: 2

@@ -1,18 +1,15 @@
 ---
-title: Learn about OpenRPC | Advanced links and articles on OpenRPC
+title: Learn about Jade | Advanced links and articles on Jade
 lang: en-US
 sidebar: auto
 sidebarDepth: 0
 ---
 
-# Learn about OpenRPC
+# Learn about Jade
 
-**Welcome to [open-rpc.org/learn](/learn/), a set of resources to help you learn more about OpenRPC.** This page includes technical **and** non-technical articles, guides, and resources. If you’re totally new to OpenRPC, [we suggest you start here](/beginners/).
+**Welcome to [jade.builders/learn](/learn/), a set of resources to help you learn more about Jade.** This page includes technical **and** non-technical articles, guides, and resources. If you’re totally new to Jade, [we suggest you start here](/beginners/).
 
 Here are some excellent starting points:
-- [Who Builds the Building Blocks?](https://hackernoon.com/who-builds-the-building-blocks-9e358d5e0753) *Feb 22, 2019 - Hackernoon*
-- [OpenRPC and ETC Tooling](https://youtu.be/UgSPMZ9FQ4Q?t=379) *April 11, 2019 - EDCON 2019*
-
-Technical Guides:
-
-- [Using OpenRPC Mock Server to test against an Ethereum JSON-RPC API](https://medium.com/etclabscore/using-openrpc-mock-server-to-test-against-an-ethereum-json-rpc-api-50b86b6d02d6) *Jun 11, 2019 - ETC Labs Core*
+- [Jade Service Runner - A Bridge for Decentralized Service Development](https://hackernoon.com/jade-service-runner-bd5ca222b7fc) *June 22, 2019 - Hackernoon*
+- [Jade Suite and Enabling Truly P2P Decentralized Applications](https://medium.com/@stevan.blog/b4c9cbcdb91) *July 3, 2019 - ETC Labs Core*
+- [Up and Running with Jade Service Runner](https://www.youtube.com/watch?v=Y-Wdg1hgMls) *June 20, 2019 - Zane Starr*
