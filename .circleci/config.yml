@@ -66,6 +66,9 @@ jobs:
       - run:
           name: Deploy to S3
           command: aws s3 sync /tmp/jade/docs/.vuepress/dist/ s3://jade.builders/ --delete
+      - run:
+          name: invalidate cloudfront
+          command: aws cloudfront create-invalidation --distribution-id IDE3HOBVIYEGDQ97 --paths '/*'
 
 workflows:
   version: 2
