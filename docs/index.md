@@ -1,9 +1,9 @@
 ---
-title: "jade.builders | A suite of tools"
+title: "jade.builders | A suite of tools for peer-to-peer decentralized applications"
 date: May 20, 2019
 sidebar: false
 ---
-<div class="center">The goal of Jade is to provide a suite of tools to enable the creation of truly peero-to-peer applications on top of EVM-based blockchains like Ethereum Classic.</div>
+<div class="center">The goal of Jade is to provide a suite of tools to enable the creation of truly peer-to-peer applications on top of EVM-based blockchains like Ethereum Classic.</div>
 
 <div class="intro-blocks">
 
