@@ -16,4 +16,4 @@ lang: en-US
 
 ## 1. Get started
 
-You can use the [etclabscore/prstine-typescript-react-jade](https://github.com/etclabscore/pristine-typescript-react) github template to start a new project that takes advantage of Jade.
+You can use the [etclabscore/pristine-typescript-react-jade](https://github.com/etclabscore/pristine-typescript-react) github template to start a new project that takes advantage of Jade.
