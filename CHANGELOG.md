@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/etclabscore/jade-website/compare/1.0.3...1.0.4) (2019-07-05)
+
+
+### Bug Fixes
+
+* pristine-typescript-react-jade repo link ([ece559e](https://github.com/etclabscore/jade-website/commit/ece559e))
+
 ## [1.0.3](https://github.com/etclabscore/jade-website/compare/1.0.2...1.0.3) (2019-07-04)
 
 
