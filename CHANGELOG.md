@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/etclabscore/jade-website/compare/1.0.5...1.0.6) (2019-07-05)
+
+
+### Bug Fixes
+
+* footer link for service runner ([481c8bf](https://github.com/etclabscore/jade-website/commit/481c8bf))
+
 ## [1.0.5](https://github.com/etclabscore/jade-website/compare/1.0.4...1.0.5) (2019-07-05)
 
 
