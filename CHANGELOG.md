@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/etclabscore/jade-website/compare/1.0.4...1.0.5) (2019-07-05)
+
+
+### Bug Fixes
+
+* footer links ([df397c0](https://github.com/etclabscore/jade-website/commit/df397c0))
+
 ## [1.0.4](https://github.com/etclabscore/jade-website/compare/1.0.3...1.0.4) (2019-07-05)
 
 
