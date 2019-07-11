@@ -1,3 +1,10 @@
+## [1.0.7](https://github.com/etclabscore/jade-website/compare/1.0.6...1.0.7) (2019-07-11)
+
+
+### Bug Fixes
+
+* add proper medium link for jade suite article ([af521ca](https://github.com/etclabscore/jade-website/commit/af521ca))
+
 ## [1.0.6](https://github.com/etclabscore/jade-website/compare/1.0.5...1.0.6) (2019-07-05)
 
 
