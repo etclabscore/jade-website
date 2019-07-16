@@ -1,3 +1,10 @@
+## [1.0.8](https://github.com/etclabscore/jade-website/compare/1.0.7...1.0.8) (2019-07-16)
+
+
+### Bug Fixes
+
+* **learn:** add Lets Talk ETC episode with zane ([2999456](https://github.com/etclabscore/jade-website/commit/2999456))
+
 ## [1.0.7](https://github.com/etclabscore/jade-website/compare/1.0.6...1.0.7) (2019-07-11)
 
 
