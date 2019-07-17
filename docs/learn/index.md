@@ -13,4 +13,4 @@ Here are some excellent starting points:
 - [Jade Service Runner - A Bridge for Decentralized Service Development](https://hackernoon.com/jade-service-runner-bd5ca222b7fc) *June 22, 2019 - Hackernoon*
 - [Jade Suite and Enabling Truly P2P Decentralized Applications](https://medium.com/etclabscore/ethereum-classic-jade-suite-are-enabling-truly-p2p-decentralized-applications-b4c9cbcdb91) *July 3, 2019 - ETC Labs Core*
 - [Up and Running with Jade Service Runner](https://www.youtube.com/watch?v=Y-Wdg1hgMls) *June 20, 2019 - Zane Starr*
-- [Let's Talk ETC! #91 - Zane Starr of ETC Labs - OpenRPC, Jade Service Runner & More](https://www.youtube.com/watch?v=8j93EtLXE8M) *July 15, 2019 - Christian Seberino & Zane Starr**
+- [Let's Talk ETC! #91 - Zane Starr of ETC Labs - OpenRPC, Jade Service Runner & More](https://www.youtube.com/watch?v=8j93EtLXE8M) *July 15, 2019 - Christian Seberino & Zane Starr*
