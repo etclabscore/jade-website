@@ -1,3 +1,10 @@
+## [1.0.9](https://github.com/etclabscore/jade-website/compare/1.0.8...1.0.9) (2019-07-17)
+
+
+### Bug Fixes
+
+* **learn:** extra asterisk ([ae24bec](https://github.com/etclabscore/jade-website/commit/ae24bec))
+
 ## [1.0.8](https://github.com/etclabscore/jade-website/compare/1.0.7...1.0.8) (2019-07-16)
 
 
