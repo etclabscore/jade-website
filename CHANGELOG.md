@@ -1,3 +1,11 @@
+## [1.0.10](https://github.com/etclabscore/jade-website/compare/1.0.9...1.0.10) (2019-08-02)
+
+
+### Bug Fixes
+
+* add sitemap image to show existing pages ([d50d81a](https://github.com/etclabscore/jade-website/commit/d50d81a))
+* **beginners:** video embed ([1fa5216](https://github.com/etclabscore/jade-website/commit/1fa5216)), closes [#9](https://github.com/etclabscore/jade-website/issues/9)
+
 ## [1.0.9](https://github.com/etclabscore/jade-website/compare/1.0.8...1.0.9) (2019-07-17)
 
 
