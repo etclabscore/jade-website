@@ -43,4 +43,4 @@ Jade is broken down into layers to make it easier to explain, document, consume,
 **Looking for more beginner resources about Jade?**
 
 [Up and Running with Jade Service Runner](https://www.youtube.com/watch?v=Y-Wdg1hgMls)
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=Y-Wdg1hgMls" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Y-Wdg1hgMls?start=94" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
