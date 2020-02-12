@@ -27,7 +27,7 @@ const MyApp: React.FC = () => {
         </Typography>
         <Grid style={{paddingBottom: "100px"}}>
           <Button style={{marginRight: "30px"}} variant="contained" href="/getting-started">Get Started</Button>
-          <Button variant="contained" href="https://github.com/etclabscore/jade-desktop/releases/latest">Desktop App</Button>
+          <Button variant="contained" href="https://github.com/etclabscore/jade-desktop/releases/latest">Jade Desktop</Button>
         </Grid>
         <Grid container justify="space-between" style={{ marginBottom: "85px" }}>
           <Grid item container direction="column" style={{ width: "230px" }}>
