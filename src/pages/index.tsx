@@ -25,14 +25,10 @@ const MyApp: React.FC = () => {
         <Typography gutterBottom variant="inherit" style={{ paddingBottom: "15px" }}>
           Jade is an opinionated JSON-RPC service manager, that provides daemonization, installation, and discovery for JSON-RPC based services.
         </Typography>
-        <Link
-          component={(props: { children: any }) => (
-            <GatsbyLink to={"/getting-started"} style={{ textDecoration: "none", color: grey[500] }} activeStyle={{ color: grey[500] }}>
-              {props.children}
-            </GatsbyLink>
-          )}>
-          <Button style={{ marginBottom: "150px" }} variant="contained">Get Started</Button>
-        </Link>
+        <Grid style={{paddingBottom: "100px"}}>
+          <Button style={{marginRight: "30px"}} variant="contained" href="/getting-started">Get Started</Button>
+          <Button variant="contained" href="https://github.com/etclabscore/jade-desktop/releases/latest">Jade Desktop</Button>
+        </Grid>
         <Grid container justify="space-between" style={{ marginBottom: "85px" }}>
           <Grid item container direction="column" style={{ width: "230px" }}>
             <Link
