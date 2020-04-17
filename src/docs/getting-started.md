@@ -19,23 +19,43 @@ info: Service Runner port starting on [object Object] {"service":"ServiceRunner"
 info: Service Runner started on [object Object] {"service":"ServiceRunner","context":"startServiceRunner","path":"/"}
 ```
 
-### Install Multi-Geth Service
+### Install `core-geth` Service
 
 Do this by creating a [JSON-RPC](json-rpc) request to the `installService` method
 
-<iframe src="https://inspector.open-rpc.org/?url=http://localhost:8002&request[jsonrpc]=2.0&request[method]=installService&request[params][0]=multi-geth&request[params][1]=1.9.9" style="border: none; width: 100%; height: 300px;"/>
+<iframe src="https://inspector.open-rpc.org/?url=http://localhost:8002&request[jsonrpc]=2.0&request[method]=installService&request[params][0]=core-geth&request[params][1]=1.11.2&request[id]=0" style="border: none; width: 100%; height: 350px;"/>
+
+When the service is installed, the server will return `true`
+
+```json
+{
+    "jsonrpc": "2.0",
+    "result": true,
+    "id": 0
+}
+```
 
 <br />
 <br />
 
-### Run Multi-Geth Service
+### Run `core-geth` Service
 Do this by creating a [JSON-RPC](json-rpc) request to the `startService` method
 
-<iframe src="https://inspector.open-rpc.org/?url=http://localhost:8002&request[jsonrpc]=2.0&request[method]=startService&request[params][0]=multi-geth&request[params][1]=1.9.9&request[params][2]=kotti" style="border: none; width: 100%; height: 300px;"/>
+<iframe src="https://inspector.open-rpc.org/?url=http://localhost:8002&request[jsonrpc]=2.0&request[method]=startService&request[params][0]=core-geth&request[params][1]=1.11.2&request[params][2]=kotti&request[id]=0" style="border: none; width: 100%; height: 350px;"/>
 <br />
 
-Now the `multi-geth` service is running at: `http://localhost:8002/multi-geth/kotti/1.9.9`
+Now the `core-geth` service is running at: `http://localhost:8002/core-geth/kotti/1.9.9`
 
-Make a JSON-RPC request to `multi-geth` running via the service runner to get the networks `chainId`:
+Make a JSON-RPC request to `kotti` environment running within the `core-geth` service to get the networks `chainId`:
 
-<iframe src="https://inspector.open-rpc.org/?url=http://localhost:8002/multi-geth/kotti/1.9.9&request[jsonrpc]=2.0&request[method]=eth_chainId" style="border: none; width: 100%; height: 300px;"/>
+<iframe src="https://inspector.open-rpc.org/?url=http://localhost:8002/core-geth/kotti/1.11.2&request[jsonrpc]=2.0&request[method]=eth_chainId&request[id]=0" style="border: none; width: 100%; height: 350px;"/>
+
+The result is `0x6` for kotti envorinment within the `core-geth` service:
+
+```json
+{
+    "jsonrpc": "2.0",
+    "result": "0x6",
+    "id": 0
+}
+```
