@@ -9,7 +9,7 @@
     "@material-ui/icons": "^4.5.1",
     "@material-ui/styles": "^4.8.2",
     "@mdx-js/mdx": "^1.5.4",
-    "@mdx-js/react": "^1.5.4",
+    "@mdx-js/react": "^1.6.17",
     "@open-rpc/docs-react": "^1.1.4",
     "@open-rpc/inspector": "^1.2.9",
     "gatsby": "^2.18.25",
